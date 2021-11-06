@@ -12,9 +12,9 @@ document.querySelector('#form').addEventListener('submit', function onSubmit(e){
 
 function main(searchName){
     const response = getElement(searchName);
-    const cardContent = createCard(response.results);
+    // const cardContent = createCard(response.results);
 
-    card.innerHTML = cardContent;
+    // card.innerHTML = cardContent;
 }
 
 const getElement = async (searchName) => {
