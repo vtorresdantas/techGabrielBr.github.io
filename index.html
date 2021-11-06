@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    
+    <title>AgroMap</title>
+</head>
+
+<body>
+    <main>
+
+        <section class="apresentation container">
+            <div class="nav">
+                <div class="content__options">
+                    <ul>
+                        <li><i class="fas fa-leaf"></i></li>
+                        <li><a href="#challenge">Desafio</a></li>
+                        <li><a href="#solution1">Essencial Search</a></li>
+                        <li><a href="#">Produto 2</a></li>
+                        <li><a href="#">Equipe</a></li>
+                    </ul>
+                </div>
+
+                <div class="contactUs">
+                    <a href="">Fale Conosco</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="text__plant">
+                    <div class="text">
+                        <h1>Visamos tornar a agricultura 100% mapeável em todo o planeta.</h1>
+
+                        <p>
+                            Aqui na AgroMap desenvolvemos diversas soluções tecnológicas que
+                            fornecem informações para auxiliar o agricultor a planejar suas
+                            colheitas futuras.
+                        </p>
+
+                        <a href="#challenge">Saiba Mais</a>
+
+                        <div class="onu">
+                            <img src="./images/onu.png" alt="">
+                            <h6>
+                                Nosso projeto apoia os objetivos de desenvolvimento sustentável
+                                da Onu
+                            </h6>
+                        </div>
+                    </div>
+
+                    <img class="plant" src="./images/agro2.jpg" alt="Plantação">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="challenge container" id="challenge">
+            <div class="content">
+                <div class="subtitle">
+                    <h5>Desafio</h5>
+                    <div class="traco"></div>
+                </div>
+
+                <div class="text">
+                    <h1>
+                        Promover acesso igualitário a tecnologia para
+                        pequenos agricultores.
+                    </h1>
+
+                    <p>
+                        Durante as duas últimas décadas, o rápido crescimento econômico e o desenvolvimento da
+                        agricultura foram responsáveis pela redução pela metade da proporção de pessoas subnutridas no
+                        mundo. Entretanto, ainda há 795 milhões de pessoas no mundo que, em 2014, viviam sob o espectro
+                        da desnutrição crônica.
+                    </p>
+
+                    <p>
+                        O ODS 2 (Objetivo de Desenvolvimento Sustentável) pretende acabar com todas as formas de fome e
+                        má-nutrição até 2030, de modo a garantir que todas as pessoas - especialmente as crianças -
+                        tenham acesso suficiente a alimentos nutritivos durante todos os anos.
+                    </p>
+
+                    <p class="negrito">
+                        Para alcançar este objetivo, é necessário promover práticas agrícolas sustentáveis, por meio do apoio à agricultura familiar, 
+                        do acesso equitativo à terra, à tecnologia e ao mercado.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="solution1 container" id="solution1">
+            <div class="content">
+                <div class="notFlex">
+                    <div class="subtitle">
+                        <h5>Soluções</h5>
+                        <div class="traco"></div>
+                    </div>
+
+                    <div class="text">
+                        <h1>
+                            Essencial Search
+                        </h1>
+
+                        <p>
+                            Em nossa mais nova aplicação 'Essencial Search' será possível que qualquer
+                            agricultor, independente do local em que esteja, procure por determinada
+                            fruta ou vegetal que deseja cultivar. Em poucos instantes, nossa base de dados 
+                            retornará informações como: solo/clima necessários para
+                            o plantio, uso medicinal, ciclo de reprodução e muitas outras. 
+                            <strong>Teste Abaixo:</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="test">
+                    <form id="form">
+                        <label for="searchName">*Nome da fruta/vegetal:</label>
+                        <input type="text" name="searchName" id="searchName" required
+                        placeholder="Ex: Kiwi, Pineapple">
+
+                        <button type="submit">Pesquisar</button>
+                    </form>
+                </div>
+
+                <div class="card">
+
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

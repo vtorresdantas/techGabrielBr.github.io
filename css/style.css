@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+  font-family: 'Inknut Antiqua', serif ;
+}
+
+a{
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    line-height: 28px;
+}
+
+.traco {
+    height: 1px;
+    width: 80px;
+    border-bottom: 1px solid #000;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 0;
+    background-color: #e9fff3;
+}
+
+.apresentation{
+    background-color: #f1ecec;
+}
+
+.apresentation .nav {
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.apresentation .nav .content__options ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.apresentation .nav .content__options ul li {
+    margin-right: 30px;
+}
+
+.apresentation .nav .content__options ul li i {
+    color: #094624;
+    font-size: 28px;
+    margin-right: 35px;
+}
+
+.apresentation .nav .content__options ul li a {
+    color: #0A261C;
+}
+
+.apresentation .nav .content__options ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #39402F;
+    transition: 0.15s linear;
+}
+
+
+.apresentation .nav .contactUs a {
+    padding: 10px 15px;
+    background-color: #0D8C44;
+    color: rgb(255, 253, 253);
+    border-radius: 30px;
+}
+
+.apresentation .content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.apresentation .content .text__plant {
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.apresentation .content .text__plant .text{
+    width: 80%;
+    margin-right: 100px;
+}
+
+.apresentation .content .text__plant .text h1 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.apresentation .content .text__plant .text p {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.apresentation .content .text__plant .text a {
+    padding: 10px 15px;
+    background-color: #0D8C44;
+    color: rgb(255, 253, 253);
+    border-radius: 30px;
+}
+
+.apresentation .content .text__plant .text .onu{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.apresentation .content .text__plant .text .onu img{
+    margin-right: 10px;
+}
+
+.apresentation .content .plant{
+    max-width: 350px;
+    max-height: 73vh;
+}
+
+.challenge .content{
+    width: 55%;
+    margin: 100px auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.challenge .content .subtitle{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.challenge .content .subtitle h5{
+    letter-spacing: 2px;
+}
+
+.challenge .content .text h1{
+    line-height: 50px;
+}
+
+.challenge .content .text p{
+    margin-top: 50px;
+}
+
+.challenge .content .text .negrito{
+    font-weight: 600;
+}
+
+.solution1{
+    background-color: #f1ecec;
+}
+
+.solution1 .content{
+    width: 55%;
+    margin: 100px auto;
+}
+
+.solution1 .content .notFlex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.solution1 .content .notFlex .subtitle {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.solution1 .content .notFlex .text p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.solution1 .content .test{
+    margin: 30px auto;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.solution1 .content .test label{
+    margin-right: 10px;
+}
+
+.solution1 .content .test input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding-bottom: 2px;
+}
+
+.solution1 .content .test button{
+    padding: 10px 15px;
+    background-color: #0D8C44;
+    color: rgb(255, 253, 253);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.solution1 .content .card{
+    width: 100%;
+    background-color: rgb(88, 255, 110);
+    border-radius: 5px;
+}
