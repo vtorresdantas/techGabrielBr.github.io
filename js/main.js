@@ -18,7 +18,7 @@ function main(searchName){
 }
 
 const getElement = async (searchName) => {
-    const url = `http://www.tropicalfruitandveg.com/api/tfvjsonapi.php?tfvitem=${searchName}`;
+    const url = `https://www.tropicalfruitandveg.com/api/tfvjsonapi.php?tfvitem=${searchName}`;
 
     const response = await fetch(url)
     console.log(response)
