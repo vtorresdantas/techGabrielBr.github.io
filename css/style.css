@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-h1{
+h1,h2{
   font-family: 'Inknut Antiqua', serif ;
 }
 
@@ -136,8 +136,8 @@ p{
 }
 
 .apresentation .content .plant{
-    max-width: 350px;
-    max-height: 73vh;
+    width: 500px;
+    height: 450px
 }
 
 .challenge .content{
@@ -224,8 +224,43 @@ p{
     margin-left: 30px;
 }
 
-.solution1 .content .card{
+.solution1 .content .result{
     width: 100%;
-    background-color: rgb(88, 255, 110);
+}
+
+.solution1 .content .result .card{
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(188, 253, 197);
     border-radius: 5px;
+    padding: 30px 20px;
+    position: relative;
+    top: 30px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.solution1 .content .card .notFound{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.solution1 .content .result .card img{
+    position: relative;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    min-width:200px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.solution1 .content .result .card .topics{
+    margin-top: 30px;
+}
+
+.solution1 .content .result .card .topics h4{
+    margin-bottom: 5px;
 }

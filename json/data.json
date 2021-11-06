@@ -1,0 +1,12 @@
+{
+    "frutas": [
+        {
+            "nome": "Maçã",
+            "imagem": "https://images8.alphacoders.com/836/836851.jpg",
+            "descricao": "A maçã é o fruto da macieira, árvore da família Rosaceae, com tronco de casca parda, lisa e copa arredondada que chega a 10 m de altura. A fruta mais cultivada do mundo é originária da Ásia e da Europa. A maçã é rica em fibras, vitaminas B1, B2 e sais minerais (fósforo e ferro).",
+            "solo": "A macieira pode prosperar em um solo médio com pH próximo de 7, desde que seja bem drenado e livre de água estagnada. No entanto, teores máximos são relatados em solos arenosos férteis e argilosos, com pH variando de 6 a 7.",
+            "propagacao": "As macieiras precisam de abelhas em uma grande porcentagem para polinizar e produzir frutos. Em fazendas comerciais de maçã, encontrou-se um benefício, ou até mesmo uma necessidade, em colocar 3 colmeias que cada 2,5 acres (ou 1 hectare) de pomar.",
+            "clima": "Por ser uma planta adaptada a climas temperados, como o europeu, a maçã precisa passar por 400 horas de temperaturas de inverno de cerca de 7,2°C para se desenvolver normalmente. Com o frio, as macieiras hibernam e deixam de desenvolver folhas e frutos."
+        }
+    ]
+}
