@@ -7,6 +7,8 @@ document.querySelector('#form').addEventListener('submit', function onSubmit(e){
 
     const searchName = input.value;
 
+    input.value = '';
+
     main(searchName);
 });
 

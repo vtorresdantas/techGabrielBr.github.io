@@ -7,6 +7,24 @@
             "solo": "A macieira pode prosperar em um solo médio com pH próximo de 7, desde que seja bem drenado e livre de água estagnada. No entanto, teores máximos são relatados em solos arenosos férteis e argilosos, com pH variando de 6 a 7.",
             "propagacao": "As macieiras precisam de abelhas em uma grande porcentagem para polinizar e produzir frutos. Em fazendas comerciais de maçã, encontrou-se um benefício, ou até mesmo uma necessidade, em colocar 3 colmeias que cada 2,5 acres (ou 1 hectare) de pomar.",
             "clima": "Por ser uma planta adaptada a climas temperados, como o europeu, a maçã precisa passar por 400 horas de temperaturas de inverno de cerca de 7,2°C para se desenvolver normalmente. Com o frio, as macieiras hibernam e deixam de desenvolver folhas e frutos."
+        },
+
+        {
+            "nome": "Banana",
+            "imagem": "https://wallpapercave.com/wp/wp2145487.jpg",
+            "descricao": "As bananas possuem um formato alongado, uma coloração amarela ou vermelha e um sabor doce. Por ser um fruto partenocárpico, a banana não possui sementes, com exceção de uma espécie vendida no mercado indonésio, a Musa balbisiana.",
+            "solo": "A bananeira prefere solos areno-argilosos, ricos em matéria orgânica, com boa profundidade, plano ou levemente inclinado, não sujeitos a inundação, vegetando bem em pH variando entre 4,5 e 7,0. A bananeira não se desenvolve bem em solos mal-drenados e nem os excessivamente secos.",
+            "propagacao": "As macieiras precisam de abelhas em uma grande porcentagem para polinizar e produzir frutos. Em fazendas comerciais de maçã, encontrou-se um benefício, ou até mesmo uma necessidade, em colocar 3 colmeias que cada 2,5 acres (ou 1 hectare) de pomar.",
+            "clima": "A bananeira (Musa spp.) propaga-se por semente e por muda, sendo mais usual e eficiente a propagação por muda. Uma bananeira pode produzir tantas mudas quantas forem as folhas emitidas (38 ± 2) até o surgimento do cacho, quando cessa essa atividade."
+        },
+
+        {
+            "nome": "Abacate",
+            "imagem": "https://data.1freewallpapers.com/download/avocado-fruit-stone-3554x1999.jpg",
+            "descricao": "O abacate é o fruto do abacateiro (família da laureáceas), uma planta nativa do México e de algumas regiões da América do Sul, cultivada também nas Ilhas Canárias e Ilha da Madeira. Ele é rico em proteínas (possui um dos mais elevados teores entre todas as frutas), gordura, fósforo, açúcares e vitaminas.",
+            "solo": "Quanto ao solo, o mais adequado para o abacateiro é aquele com bastante matéria orgânica, profundo e com boa drenagem.",
+            "propagacao": "O abacateiro pode propagar-se via sementes ou via vegetativa. A propagação vegetativa pode ser feita por vários métodos, como a estaquia, enxertia, alporquia e cultivo de tecidos.",
+            "clima": "O abacateiro veio de um clima subtropical, mas agora consegue se desenvolver bem nas variações de clima no Brasil. Fique atento, ainda assim, para fazer um plantio em uma área que a temperatura seja de 18 a 25ºC, que não ocorra geadas, seja protegido dos ventos fortes e que receba bastante luz solar."
         }
     ]
 }
