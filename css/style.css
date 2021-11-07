@@ -217,6 +217,7 @@ p{
 
 .solution1 .content .notFlex .text img{
     width: 90%;
+    min-width: 300px;
     margin-bottom: 20px;
     position: relative;
     left: 50%;
