@@ -25,13 +25,19 @@ h1,h2{
   font-family: 'Inknut Antiqua', serif ;
 }
 
-a{
+a, button{
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    transition: 0.3s linear;
+}
+
+button:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30),
+    0 5px 5px rgba(0, 0, 0, 0.22);
 }
 
 p{
@@ -53,8 +59,19 @@ p{
     background-color: #e9fff3;
 }
 
+.subtitle {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.subtitle h5 {
+    letter-spacing: 2px;
+}
+
 .apresentation{
-    background-color: #f1ecec;
+    background-color: #e6e4e4;
 }
 
 .apresentation .nav {
@@ -93,7 +110,6 @@ p{
     transition: 0.15s linear;
 }
 
-
 .apresentation .nav .contactUs a {
     padding: 10px 15px;
     background-color: #0D8C44;
@@ -101,140 +117,120 @@ p{
     border-radius: 30px;
 }
 
-.apresentation .content{
+.apresentation .nav .contactUs a:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30),
+    0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.apresentation .content__apresentation{
     width: 70%;
     margin: 0 auto;
 }
 
-.apresentation .content .text__plant {
+.apresentation .content__apresentation .text__plant {
     width: 100%;
     margin-bottom: 60px;
     display: flex;
     overflow-x: hidden;
 }
 
-.apresentation .content .text__plant .text{
+.apresentation .content__apresentation .text__plant .text {
     width: 80%;
     margin-right: 100px;
 }
 
-.apresentation .content .text__plant .text h1 {
+.apresentation .content__apresentation .text__plant .text h1 {
     font-size: 40px;
     line-height: 55px;
 }
 
-.apresentation .content .text__plant .text p {
+.apresentation .content__apresentation .text__plant .text p {
     margin-top: 30px;
     margin-bottom: 35px;
 }
 
-.apresentation .content .text__plant .text a {
+.apresentation .content__apresentation .text__plant .text a {
     padding: 10px 15px;
     background-color: #0D8C44;
     color: rgb(255, 253, 253);
     border-radius: 30px;
 }
 
-.apresentation .content .text__plant .text .onu{
+.apresentation .content__apresentation .text__plant .text a:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30),
+    0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.apresentation .content__apresentation .text__plant .text .onu {
     display: flex;
     align-items: flex-end;
     margin-top: 50px;
 }
 
-.apresentation .content .text__plant .text .onu img{
+.apresentation .content__apresentation .text__plant .text .onu img {
     margin-right: 10px;
 }
 
-.apresentation .content .plant{
+.apresentation .content__apresentation .plant {
     width: 500px;
     height: 450px
 }
 
-.challenge .content{
+/* estilização default para as sections restantes */
+.content__sections{
     width: 55%;
-    margin: 100px auto;
+    margin: 80px auto;
     display: flex;
     align-items: flex-start;
 }
 
-.challenge .content .subtitle{
-    display: flex;
-    align-items: center;
-    margin-right: 50px;
-    margin-top: 20px;
-}
-
-.challenge .content .subtitle h5{
-    letter-spacing: 2px;
-}
-
-.challenge .content .text h1{
+.content__sections .text h1 {
     line-height: 50px;
 }
 
-.challenge .content .text img{
-    width: 75%;
-    min-width: 300px;
+.content__sections .text img {
+    width: 100%;
+    min-width: 350px;
     margin-top: 50px;
+    margin-bottom: 10px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.challenge .content .text p{
+.content__sections .text p {
     margin-top: 40px;
 }
+/* fim desta estilização */
 
-.challenge .content .text .negrito{
+.challenge .content__sections .text .negrito {
     font-weight: 600;
 }
 
 .solution1{
-    background-color: #f1ecec;
+    background-color: #e6e4e4;
 }
 
-.solution1 .content{
-    width: 55%;
-    margin: 100px auto;
+.solution1 .content__sections{
+    display: block;
 }
 
-.solution1 .content .notFlex{
+.solution1 .content__sections .flex {
     display: flex;
     align-items: flex-start;
 }
 
-.solution1 .content .notFlex .subtitle {
-    display: flex;
-    align-items: center;
-    margin-right: 50px;
-    margin-top: 20px;
-}
-
-.solution1 .content .notFlex .text p {
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.solution1 .content .notFlex .text img{
-    width: 90%;
-    min-width: 300px;
-    margin-bottom: 20px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.solution1 .content .test{
-    margin: 40px auto;
+.solution1 .content__sections .test {
+    margin: 70px auto;
     font-size: 13px;
     font-weight: 600;
 }
 
-.solution1 .content .test label{
+.solution1 .content__sections .test label {
     margin-right: 10px;
 }
 
-.solution1 .content .test input{
+.solution1 .content__sections .test input {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #000;
@@ -242,7 +238,7 @@ p{
     padding-bottom: 2px;
 }
 
-.solution1 .content .test button{
+.solution1 .content__sections .test button {
     padding: 10px 15px;
     background-color: #0D8C44;
     color: rgb(255, 253, 253);
@@ -252,11 +248,11 @@ p{
     margin-left: 30px;
 }
 
-.solution1 .content .result{
+.solution1 .content__sections .result {
     width: 100%;
 }
 
-.solution1 .content .result .card{
+.solution1 .content__sections .result .card {
     width: 100%;
     min-height: 50vh;
     background-color: rgb(188, 253, 197);
@@ -268,13 +264,13 @@ p{
     0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.solution1 .content .card .notFound{
+.solution1 .content__sections .card .notFound {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.solution1 .content .result .card img{
+.solution1 .content__sections .result .card img {
     position: relative;
     top: 30px;
     left: 50%;
@@ -285,10 +281,38 @@ p{
     margin-bottom: 30px;
 }
 
-.solution1 .content .result .card .topics{
+.solution1 .content__sections .result .card .topics {
     margin-top: 30px;
 }
 
-.solution1 .content .result .card .topics h4{
+.solution1 .content__sections .result .card .topics h4 {
     margin-bottom: 5px;
 }
+
+.team{
+    background-color: #e6e4e4;
+}
+
+
+.team .content__sections{
+    display: block;
+}
+
+.team .content__sections .text .person{
+    width: 600px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+
+.team .content__sections .text .person img{
+    width: 300px;
+    min-width: 300px;
+    border-radius: 50%;
+    left: 0;
+    transform:translateX(0);
+    margin-right: 50px;
+}
+
+
