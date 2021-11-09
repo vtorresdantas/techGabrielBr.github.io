@@ -25,7 +25,8 @@ h1,h2{
   font-family: 'Inknut Antiqua', serif ;
 }
 
-a, button{
+a,
+button {
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
@@ -131,7 +132,7 @@ p{
     width: 100%;
     margin-bottom: 60px;
     display: flex;
-    overflow-x: hidden;
+    
 }
 
 .apresentation .content__apresentation .text__plant .text {
@@ -139,9 +140,23 @@ p{
     margin-right: 100px;
 }
 
-.apresentation .content__apresentation .text__plant .text h1 {
+.apresentation .content__apresentation .text__plant .text .text_and_image{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.apresentation .content__apresentation .text__plant .text .text_and_image h1 {
+    width: 60%;
     font-size: 40px;
     line-height: 55px;
+    margin-right: 20px;
+}
+
+.apresentation .content__apresentation .text__plant .text .text_and_image img{
+    width: 280px;
+    height: 280px;
 }
 
 .apresentation .content__apresentation .text__plant .text p {
@@ -149,16 +164,10 @@ p{
     margin-bottom: 35px;
 }
 
-.apresentation .content__apresentation .text__plant .text a {
-    padding: 10px 15px;
-    background-color: #0D8C44;
-    color: rgb(255, 253, 253);
-    border-radius: 30px;
-}
-
-.apresentation .content__apresentation .text__plant .text a:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30),
-    0 5px 5px rgba(0, 0, 0, 0.22);
+.apresentation .content__apresentation .text__plant .text iframe{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .apresentation .content__apresentation .text__plant .text .onu {
@@ -169,11 +178,6 @@ p{
 
 .apresentation .content__apresentation .text__plant .text .onu img {
     margin-right: 10px;
-}
-
-.apresentation .content__apresentation .plant {
-    width: 500px;
-    height: 450px
 }
 
 /* estilização default para as sections restantes */
@@ -298,21 +302,91 @@ p{
     display: block;
 }
 
-.team .content__sections .text .person{
-    width: 600px;
+.team .content__sections .text{
     display: flex;
-    align-items:center;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team .content__sections .text .person{
+    width: 300px;
     margin: 40px 0;
 }
 
 .team .content__sections .text .person img{
     width: 300px;
     min-width: 300px;
-    border-radius: 50%;
     left: 0;
     transform:translateX(0);
     margin-right: 50px;
+    border-radius: 5px;
 }
 
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 100vh;
+    background-color: rgb(188, 253, 197);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+    margin: 90px auto;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
 
+.contact form input,
+.contact form textarea {
+    width: 80%;
+    outline: none;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.contact form button{
+    width: 150px;
+    height: 40px;
+    background-color: #0D8C44;
+    border: none;
+    border-radius: 30px;
+    color: #e6e4e4;
+}
+
+.footer{
+    min-height: 10vh;
+    background-color: #e6e4e4;
+    display: flex;
+    align-items: center;
+}
+
+.footer .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer .content a:hover{
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.footer .content .contact i{
+    margin-right: 5px;
+}
+
+.footer .content .contact a{
+    margin-right: 40px;
+}
+
+.footer .content .sociais a{
+    margin-right: 5px;
+}

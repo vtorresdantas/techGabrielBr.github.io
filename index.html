@@ -37,15 +37,24 @@
             <div class="content__apresentation">
                 <div class="text__plant">
                     <div class="text">
-                        <h1>Visamos tornar a agricultura 100% mapeável em todo o planeta.</h1>
+                        <div class="text_and_image">
+                            <h1>Visamos tornar a agricultura 100% mapeável em todo o planeta.</h1>
+                            <img class="plant" src="./images/agro.png" alt="Planta">
+                        </div>
 
                         <p>
                             Aqui na AgroMap desenvolvemos diversas soluções tecnológicas resposáveis
                             por fornecer informações que auxiliam o agricultor a planejar suas
-                            colheitas futuras.
+                            colheitas futuras. <strong>Veja abaixo um vídeo pitch, no qual mostramos a
+                                construção de nosso projeto Global Impact:</strong>
                         </p>
 
-                        <a href="#challenge">Saiba Mais</a>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/rljPOeDwwt0?autoplay=1&mute=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
 
                         <div class="onu">
                             <img src="./images/onu.png" alt="">
@@ -56,7 +65,6 @@
                         </div>
                     </div>
 
-                    <img class="plant" src="./images/agro.png" alt="Planta">
                 </div>
             </div>
 
@@ -257,7 +265,7 @@
                             odit animi vitae ratione commodi obcaecati ipsum numquam.
                         </p>
                     </div>
-                    
+
                     <div class="person">
                         <img src="https://img.freepik.com/free-icon/important-person_318-10744.jpg?size=338&ext=jpg"
                             alt="">
@@ -270,6 +278,39 @@
                 </div>
             </div>
         </section>
+
+        <section class="container contact" id="contact">
+            <form>
+                <h1>Fale Conosco</h1>
+
+                <input type="text" name="name" id="name" required placeholder="Seu Nome...">
+
+                <input type="text" name="email" id="email" required placeholder="Seu Email...">
+
+                <input type="text" name="phone" id="phone" required placeholder="Seu Telefone...">
+
+                <textarea name="mesage" id="mesage" cols="30" rows="10" required
+                    placeholder="Insira uma mensagem..."></textarea>
+
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="content">
+                <div class="contact">
+                    <a><i class="fas fa-map-marker-alt"></i> Rua Fictícia, 123 - SP</a>
+                    <a><i class="fas fa-phone-square-alt"></i>(11) 9999-9999</a>
+                </div>
+
+                <div class="sociais">
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-facebook"></i></a>
+                    <a><i class="fab fa-youtube"></i></a>
+                    <a><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </footer>
     </main>
 
     <script src="./js/main.js"></script>
