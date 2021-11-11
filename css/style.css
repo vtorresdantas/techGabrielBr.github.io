@@ -519,6 +519,9 @@ p {
         padding: none;
         background-color: transparent;
         box-shadow: none;
+        margin: 30px auto;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .contact form,
@@ -545,7 +548,7 @@ p {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .footer .content .sociais a{
