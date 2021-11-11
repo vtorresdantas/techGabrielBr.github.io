@@ -19,19 +19,23 @@
 
         <section class="apresentation container">
             <div class="nav">
-                <div class="content__options">
+                <i class="fas fa-leaf" id="logo"></i>
+                <div class="content__options" id="menuOptions">
                     <ul>
-                        <li><i class="fas fa-leaf"></i></li>
                         <li><a href="#challenge">Desafio</a></li>
                         <li><a href="#solution1">Essencial Search</a></li>
                         <li><a href="#solution2">Agro Report</a></li>
                         <li><a href="#team">Equipe</a></li>
-                    </ul>
-                </div>
 
-                <div class="contactUs">
-                    <a href="#contact">Fale Conosco</a>
+                    </ul>
+
+                    <div class="contactUs">
+                        <a href="#contact">Fale Conosco</a>
+                    </div>
+
                 </div>
+                
+                <button onclick="openCloseMenu()" id="btnMenu"><i class="fas fa-bars"></i></button>
             </div>
 
             <div class="content__apresentation">
@@ -84,7 +88,7 @@
 
                     <p>
                         Durante as duas últimas décadas, o rápido crescimento econômico e o desenvolvimento da
-                        agricultura foram responsáveis pela redução pela metade da proporção de pessoas subnutridas no
+                        agricultura foram responsáveis pela redução pela metade de pessoas subnutridas no
                         mundo. Entretanto, ainda há 795 milhões de pessoas no mundo que, em 2014, viviam sob o espectro
                         da desnutrição crônica.
                     </p>
@@ -240,7 +244,7 @@
                         <img src="https://img.freepik.com/free-icon/important-person_318-10744.jpg?size=338&ext=jpg"
                             alt="">
                         <p>
-                            <strong>Gabriel Oliveira</strong> <br> <br>
+                            <strong>Matheus de Oliveira</strong> <br> <br>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam neque tempora reprehenderit
                             odit animi vitae ratione commodi obcaecati ipsum numquam.
                         </p>
@@ -250,7 +254,7 @@
                         <img src="https://img.freepik.com/free-icon/important-person_318-10744.jpg?size=338&ext=jpg"
                             alt="">
                         <p>
-                            <strong>Gabriel Oliveira</strong> <br> <br>
+                            <strong>Vinícius Heidi</strong> <br> <br>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam neque tempora reprehenderit
                             odit animi vitae ratione commodi obcaecati ipsum numquam.
                         </p>
@@ -260,7 +264,7 @@
                         <img src="https://img.freepik.com/free-icon/important-person_318-10744.jpg?size=338&ext=jpg"
                             alt="">
                         <p>
-                            <strong>Gabriel Oliveira</strong> <br> <br>
+                            <strong>Vitor Torres</strong> <br> <br>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam neque tempora reprehenderit
                             odit animi vitae ratione commodi obcaecati ipsum numquam.
                         </p>
@@ -270,7 +274,7 @@
                         <img src="https://img.freepik.com/free-icon/important-person_318-10744.jpg?size=338&ext=jpg"
                             alt="">
                         <p>
-                            <strong>Gabriel Oliveira</strong> <br> <br>
+                            <strong>Lucas Dellagatti</strong> <br> <br>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam neque tempora reprehenderit
                             odit animi vitae ratione commodi obcaecati ipsum numquam.
                         </p>
@@ -292,7 +296,7 @@
                 <textarea name="mesage" id="mesage" cols="30" rows="10" required
                     placeholder="Insira uma mensagem..."></textarea>
 
-                <button type="submit">Pesquisar</button>
+                <button type="submit">Enviar</button>
             </form>
         </section>
 
@@ -313,7 +317,8 @@
         </footer>
     </main>
 
-    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/card.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,3 @@
-const result = document.querySelector('.result');
-
 document.querySelector('#form').addEventListener('submit', function onSubmit(e){
     e.preventDefault();
 
@@ -13,6 +11,7 @@ document.querySelector('#form').addEventListener('submit', function onSubmit(e){
 });
 
 async function main(searchName){
+    const result = document.querySelector('.result');
     const response = await getElement(searchName);
     const cardContent = createCard(response);
 
