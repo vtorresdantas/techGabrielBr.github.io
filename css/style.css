@@ -343,13 +343,16 @@ p {
     border-radius: 5px;
 }
 
+.contact{
+    min-height: 10vh;
+}
+
 .contact form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
     max-width: 600px;
-    min-height: 100vh;
     background-color: rgb(188, 253, 197);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
         0 15px 12px rgba(0, 0, 0, 0.22);
@@ -515,18 +518,10 @@ p {
         font-size: 32px;
     }
 
-    .contact{
-        min-height:90vh;
-    }
-
     .contact form {
-        padding: none;
         background-color: transparent;
         box-shadow: none;
         margin: 0px auto;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        min-height: 90vh;
     }
 
     .contact form,
