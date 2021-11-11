@@ -519,10 +519,9 @@ p {
         padding: none;
         background-color: transparent;
         box-shadow: none;
-        margin: 30px auto;
-        padding-top: 0;
-        padding-bottom: 0;
-        min-height: 90vh;
+        margin: 0px auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .contact form,
