@@ -406,11 +406,11 @@ p {
     padding-bottom: 5px;
 }
 
-.footer .content .contact i {
+.footer .content .footer__contact i {
     margin-right: 5px;
 }
 
-.footer .content .contact a {
+.footer .content .footer__contact a {
     margin-right: 40px;
 }
 
@@ -515,6 +515,10 @@ p {
         font-size: 32px;
     }
 
+    .contact{
+        min-height:90vh;
+    }
+
     .contact form {
         padding: none;
         background-color: transparent;
@@ -522,6 +526,7 @@ p {
         margin: 0px auto;
         padding-top: 0px;
         padding-bottom: 0px;
+        min-height: 90vh;
     }
 
     .contact form,
@@ -534,13 +539,13 @@ p {
         padding: 20px;
     }
 
-    .footer .content .contact{
+    .footer .content .footer__contact{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
     }
 
-    .footer .content .contact a{
+    .footer .content .footer__contact a {
         margin-right: 0px;
     }
 
