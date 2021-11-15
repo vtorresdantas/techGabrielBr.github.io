@@ -253,6 +253,10 @@ p {
     font-weight: 600;
 }
 
+.solution1 .content__sections .test form{
+    margin-bottom: 20px;
+}
+
 .solution1 .content__sections .test label {
     margin-right: 10px;
 }

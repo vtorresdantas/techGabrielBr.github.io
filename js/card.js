@@ -61,6 +61,10 @@ const createCard = (response) => {
                     <h4>Propagação</h4>
                     <p>${response.propagacao}</p>
                 </div>
+                <div class="topics">
+                    <h4>Comparação de Custos</h4>
+                    <p>${response.gastos}</p>
+                </div>
         </div>
         `
     }

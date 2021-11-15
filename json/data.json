@@ -6,7 +6,8 @@
             "descricao": "A maçã é o fruto da macieira, árvore da família Rosaceae, com tronco de casca parda, lisa e copa arredondada que chega a 10 m de altura. A fruta mais cultivada do mundo é originária da Ásia e da Europa. A maçã é rica em fibras, vitaminas B1, B2 e sais minerais (fósforo e ferro).",
             "solo": "A macieira pode prosperar em um solo médio com pH próximo de 7, desde que seja bem drenado e livre de água estagnada. No entanto, teores máximos são relatados em solos arenosos férteis e argilosos, com pH variando de 6 a 7.",
             "propagacao": "As macieiras precisam de abelhas em uma grande porcentagem para polinizar e produzir frutos. Em fazendas comerciais de maçã, encontrou-se um benefício, ou até mesmo uma necessidade, em colocar 3 colmeias que cada 2,5 acres (ou 1 hectare) de pomar.",
-            "clima": "Por ser uma planta adaptada a climas temperados, como o europeu, a maçã precisa passar por 400 horas de temperaturas de inverno de cerca de 7,2°C para se desenvolver normalmente. Com o frio, as macieiras hibernam e deixam de desenvolver folhas e frutos."
+            "clima": "Por ser uma planta adaptada a climas temperados, como o europeu, a maçã precisa passar por 400 horas de temperaturas de inverno de cerca de 7,2°C para se desenvolver normalmente. Com o frio, as macieiras hibernam e deixam de desenvolver folhas e frutos.",
+            "gastos": "Fazenda Tradicional: R$ 300,00 (m2) vs Fazenda Vertical: R$ 400,00 (m2)"
         },
 
         {
@@ -14,8 +15,9 @@
             "imagem": "https://wallpapercave.com/wp/wp2145487.jpg",
             "descricao": "As bananas possuem um formato alongado, uma coloração amarela ou vermelha e um sabor doce. Por ser um fruto partenocárpico, a banana não possui sementes, com exceção de uma espécie vendida no mercado indonésio, a Musa balbisiana.",
             "solo": "A bananeira prefere solos areno-argilosos, ricos em matéria orgânica, com boa profundidade, plano ou levemente inclinado, não sujeitos a inundação, vegetando bem em pH variando entre 4,5 e 7,0. A bananeira não se desenvolve bem em solos mal-drenados e nem os excessivamente secos.",
-            "propagacao": "As macieiras precisam de abelhas em uma grande porcentagem para polinizar e produzir frutos. Em fazendas comerciais de maçã, encontrou-se um benefício, ou até mesmo uma necessidade, em colocar 3 colmeias que cada 2,5 acres (ou 1 hectare) de pomar.",
-            "clima": "A bananeira (Musa spp.) propaga-se por semente e por muda, sendo mais usual e eficiente a propagação por muda. Uma bananeira pode produzir tantas mudas quantas forem as folhas emitidas (38 ± 2) até o surgimento do cacho, quando cessa essa atividade."
+            "propagacao": "A bananeira (Musa spp.) propaga-se por semente e por muda, sendo mais usual e eficiente a propagação por muda. Uma bananeira pode produzir tantas mudas quantas forem as folhas emitidas (38 ± 2) até o surgimento do cacho, quando cessa essa atividade.",
+            "clima": " As regiões úmidas e com chuvas regulares são as mais indicadas para o plantio de bananeiras. A planta também gosta de temperaturas quentes, desde que não seja em excesso. Locais onde ocorrem períodos abaixo de 15 graus devem ser evitados, pois não toleram geadas.",
+            "gastos": "Fazenda Tradicional: R$ 250,00 (m2) vs Fazenda Vertical: R$ 480,00 (m2)"
         },
 
         {
@@ -24,7 +26,38 @@
             "descricao": "O abacate é o fruto do abacateiro (família da laureáceas), uma planta nativa do México e de algumas regiões da América do Sul, cultivada também nas Ilhas Canárias e Ilha da Madeira. Ele é rico em proteínas (possui um dos mais elevados teores entre todas as frutas), gordura, fósforo, açúcares e vitaminas.",
             "solo": "Quanto ao solo, o mais adequado para o abacateiro é aquele com bastante matéria orgânica, profundo e com boa drenagem.",
             "propagacao": "O abacateiro pode propagar-se via sementes ou via vegetativa. A propagação vegetativa pode ser feita por vários métodos, como a estaquia, enxertia, alporquia e cultivo de tecidos.",
-            "clima": "O abacateiro veio de um clima subtropical, mas agora consegue se desenvolver bem nas variações de clima no Brasil. Fique atento, ainda assim, para fazer um plantio em uma área que a temperatura seja de 18 a 25ºC, que não ocorra geadas, seja protegido dos ventos fortes e que receba bastante luz solar."
+            "clima": "O abacateiro veio de um clima subtropical, mas agora consegue se desenvolver bem nas variações de clima no Brasil. Fique atento, ainda assim, para fazer um plantio em uma área que a temperatura seja de 18 a 25ºC, que não ocorra geadas, seja protegido dos ventos fortes e que receba bastante luz solar.",
+            "gastos": "Fazenda Tradicional: R$ 420,00 (m2) vs Fazenda Vertical: R$ 380,00 (m2)"
+        },
+
+        {
+            "nome":"Abacaxi" ,
+            "imagem":"https://i.pinimg.com/originals/ac/25/ae/ac25ae8cc1d4386a2b923ddcc3e3fbfe.jpg" ,
+            "descricao": "O abacaxi é um fruto revestido por uma casca áspera, formada pela união das brácteas e sépalas das flores da planta. A “coroa” do abacaxi, o que lhe confere o título de “rei dos frutos” é, na verdade, um tufo de folhas resultante do tecido meristemático apical que a planta apresenta.",
+            "solo": " De acordo com as técnicas de como plantar abacaxi, o solo considerado ideal é aquele com 30% de adubo e 70% de terra; Irrigação: procure sempre realizar a rega do abacaxi pela manhã.",
+            "propagacao": "O método convencional de propagação do abacaxizeiro é feito por meio de mudas que são originadas de brotações laterais da planta. O uso de mudas de qualidade inferior pode acarretar problemas como: presença de insetos e doenças, amadurecimento desuniforme da fruta e baixa produtividade.",
+            "clima": "Embora a faixa de temperatura de 22 ºC a 32 ºC seja a mais adequada para o cultivo do abacaxizeiro, a planta também se desenvolve em regiões com variações entre 5 ºC e 40 ºC. Contudo, não tolera geadas.",
+            "gastos": "Fazenda Tradicional: R$ 220,00 (m2) vs Fazenda Vertical: R$ 345,00 (m2)"
+        },
+
+         {
+            "nome":"Açaí" ,
+            "imagem":"https://s2.glbimg.com/nnwN083Ei558nCR3ATaM07silUg=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/n/R/UwJP3rSa6nLpukMgytTg/nc-acai-investe3-080320.jpg" ,
+            "descricao": "O açaí é um fruto brasileiro cultivado predominantemente na região amazônica. Com cor escura, que vai do roxo ao preto, o fruto arredondado nasce em cachos e, na maioria das vezes, em locais com solos mais úmidos ou alagados.",
+            "solo": "Solos de textura média são os mais indicados e, no caso de ser de terra firme em sistemas de cultivo solteiro e consorciado, é recomendável a utilização de áreas já exploradas com plantios sucessivos, enquanto em pastagens degradadas ou em capoeiras finas (macegas) os custos são menores.",
+            "propagacao": "O açaizeiro pode ser propagado por via sexuada e assexuada. A propagação por sementes é o método mais comum, especialmente para a produção de grande quantidade de mudas, pois uma planta pode produzir mais de 6.000 sementes por ano. A propagação assexuada pode ser obtida pela retirada de perfilhos ou brotações que surgem de forma espontânea na região logo abaixo do emaranhado de raízes.",
+            "clima": "O açaí desenvolve-se naturalmente em regiões sem estação seca definida, mas com um período seco curto ou, às vezes, inexistente, porém sempre quente e com boa quantidade de chuva. Abaixo desse índice, recomenda-se irrigar o açaizeiro.",
+            "gastos": "Fazenda Tradicional: R$ 430,00 (m2) vs Fazenda Vertical: R$ 510,00 (m2)"
+        },
+
+         {
+            "nome":"Morango" ,
+            "imagem":"https://p4.wallpaperbetter.com/wallpaper/38/227/803/strawberry-wallpaper-preview.jpg" ,
+            "descricao": "O morango (Fragaria spp.) é uma fruta (pseudofruto) da família Rosaceae, mesma família da maçã, pera, pêssego e cereja. ... O morango é uma fruta carnosa e suculenta de coloração vermelha com sabor agridoce que chama muito a atenção, porém é um fruto muito delicado que facilmente sofre com a ação de pesticidas.",
+            "solo": "O morangueiro prefere solos levemente ácidos com ph na faixa de 5,5 a 6,0 – ricos em matéria orgânica e com a textura areno-argilosa. Além disso, a boa drenagem do solo é um fator muito importante, pois a planta não tolera um mínimo encharcamento.",
+            "propagacao": "O morangueiro pode-se propagar por via seminal ou por via vegetativa. A propagação por semente só se justifica no melhoramento genético, enquanto que a propagação vegetativa a partir da separação de rebentos ou da cultura de tecidos (micro propagação) são os meios mais expeditos na produção de propágulos a cultivar.",
+            "clima": "O morango é uma planta de clima subtropical a temperado, ou seja, se desenvolve em uma faixa mais amena de temperatura, entre 13°C e 26°C.",
+            "gastos": "Fazenda Tradicional: R$ 500,00 (m2) vs Fazenda Vertical: R$ 332,00 (m2)"
         }
     ]
 }
