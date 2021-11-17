@@ -498,6 +498,9 @@ p {
 }
 
 @media(max-width: 760px) {
+    .apresentation .content__apresentation .text__plant .text iframe {
+        height: 200px;
+    }
 
     .content__sections {
         width: 70%;
@@ -522,6 +525,10 @@ p {
 
     .apresentation .content__apresentation .text__plant .text .text_and_image h1 {
         font-size: 32px;
+    }
+
+    .apresentation .content__apresentation .text__plant .text iframe {
+        height: 150px;
     }
 
     .contact form {
